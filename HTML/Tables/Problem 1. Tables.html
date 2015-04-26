@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+	<meta charset="UTF-8">
+</head>
+<!--I didn't want to use CSS for the formatting so if you validate this it will show as deprecated. Please don't take points out for that since this is the HTML course-->
+<body>
+    <header></header>
+    <section>
+        <div id="Table1">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" align="center"><h1><i>Fresh Fruits</i></h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        It has long been known that diet <br />
+                        that includes at least a few <br />
+                        servings of fresh fruits every day <br />
+                        will help keep you healthy, fit and <br />
+                        trim
+                    </td>
+                    <td>
+                        <img src="images/fruitbasket.png"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <br/>
+        <br/>
+        <div id="Table2">
+            <table border="1" width="200" cellpadding="5">
+                <tr>
+                    <td colspan="3" align="center">Title goes here</td>
+                    <td align="center">A</td>
+                    <td align="right">B</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" align="left">C</td>
+                    <td align="center">D</td>
+                    <td align="center">E</td>
+                    <td align="center">F</td>
+                    <td align="right">G</td>
+                </tr>
+                <tr>
+                    <td align="center">H</td>
+                    <td colspan="2" align="center">I</td>
+                    <td rowspan="2" style="text-align: right" valign="bottom">J</td>
+                    <!--Couldn't find a better way to align to bottom right-->
+                </tr>
+                <tr>
+                    <td align="center">K</td>
+                    <td align="center">L</td>
+                    <td align="center">M</td>
+                </tr>
+                <tr>
+                    <td align="right">N</td>
+                    <td colspan="4" align="center">O</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

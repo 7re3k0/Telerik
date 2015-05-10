@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 4 - Calculator</title>
+	<link rel="stylesheet" href="Problem 4 - Calculator.css">
+</head>
+<body>
+<div id="root">
+	<div id="calcimg"></div>
+	<div id="winbutton"></div>
+	<div id="name">Calculator</div>
+		<div id="inside">
+			<div id="nav">
+				<ul>
+					<li>View</li>
+					<li>Edit</li>
+					<li>Help</li>
+				</ul>
+				<div id="tbackground">
+					<table id="head">
+						<tr>
+                        	<td colspan="10" id="display">8854455</td>
+                    	</tr>
+						<tr>
+                        	<td colspan="10">
+                        	    <table id="zero">
+                        	        <tr>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	        </tr>
+                        	        <tr>
+                        	            <td class="alignl">63</td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td class="alignl">47</td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td class="alignr">32</td>
+                        	        </tr>
+                        	        <tr>
+                        	            <td>0000</td>
+                        	            <td>0000</td>
+                        	            <td>1000</td>
+                        	            <td>0111</td>
+                        	            <td>0001</td>
+                        	            <td>1011</td>
+                        	            <td>1011</td>
+                        	            <td>0111</td>
+                        	        </tr>
+                        	        <tr>
+                        	            <td class="alignl">31</td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td class="alignl">15</td>
+                        	            <td></td>
+                        	            <td></td>
+                        	            <td class="alignr">0</td>
+                        	        </tr>
+                        	    </table>
+                        	</td>
+                    	</tr>
+					</table>
+				</div>
+				<div>
+					<table id="buttons">
+                    				<tr>
+                    					<td colspan="2" rowspan="3" class="radios">
+                    						<form>
+                    							<input type="radio" name="hex"/><label for="hex">Hex</label> <br/>
+                    							<input type="radio" name="hex" checked/><label for="hex">Dec</label><br/>
+                    							<input type="radio" name="hex"/><label for="Hex">Oct</label><br/>
+                    							<input type="radio" name="hex"/><label for="hex">Bin</label>
+                    						</form>
+                    					</td>
+                    					<td id="empty"></td>
+                    					<td class="function words">Mod</td>
+                    					<td class="inactive letter">A</td>
+                    					<td class="ms">MC</td>
+                    					<td class="ms">MR</td>
+                    					<td class="ms">MS</td>
+                    					<td class="ms">M+</td>
+                    					<td class="ms">M-</td>
+                    				</tr>
+                    				<tr>
+                    					<td class="function">(</td>
+                    					<td class="function">)</td>
+                    					<td class="inactive letter">B</td>
+                    					<td class="function arrow">&#8592;</td>
+                    					<td class="function">CE</td>
+                    					<td class="function">C</td>
+                    					<td class="function">&#177;</td>
+                    					<td class="inactive">&radic;</td>
+                    				</tr>
+                    				<tr>
+                    					<td class="function words">RoL</td>
+                    					<td class="function words">RoR</td>
+                    					<td class="inactive letter">C</td>
+                    					<td class="digit">7</td>
+                    					<td class="digit">8</td>
+                    					<td class="digit">9</td>
+                    					<td class="function">/</td>
+                    					<td class="inactive">%</td>
+                    				</tr>
+                    				<tr>
+                    					<td rowspan="3" colspan="2" class="radios">
+                    						<form>
+                    							<input type="radio" name="qword" checked /><label for="qword">Qword</label><br/>
+                    							<input type="radio" name="qword"/><label for="qword">Dword</label><br/>
+                    							<input type="radio" name="qword"/><label for="qword">Word</label><br/>
+                    							<input type="radio" name="qword"/><label for="qword">Byte</label>
+                    						</form>
+                    					</td>
+                    					<td class="function words">Or</td>
+                    					<td class="function words">Xor</td>
+                    					<td class="inactive letter">D</td>
+                    					<td class="digit">4</td>
+                    					<td class="digit">5</td>
+                    					<td class="digit">6</td>
+                    					<td class="function">*</td>
+                    					<td class="inactive">1/x</td>
+                    				</tr>
+                    				<tr>
+                    					<td class="function words">Lsh</td>
+                    					<td class="function words">Rsh</td>
+                    					<td class="inactive letter">E</td>
+                    					<td class="digit">1</td>
+                    					<td class="digit">2</td>
+                    					<td class="digit">3</td>
+                    					<td class="function">-</td>
+                    					<td id="equal" rowspan="2">=</td>
+                    				</tr>
+                    				<tr>
+                    					<td class="function words">Not</td>
+                    					<td class="function words">And</td>
+                    					<td class="inactive letter">F</td>
+                    					<td class="digit" colspan="2">0</td>
+                    					<td class="inactive">.</td>
+                    					<td class="function">+</td>
+                    				</tr>
+                    			</table>
+				</div>
+			</div>
+		</div>
+</div>	
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿body {
+    font-family: Arial;
+    text-align: left;
+}
+table {
+    background-color:#5f5f5f;
+    width:450px;
+    border: 0;
+}
+th {
+    color: #B0B0B0;
+    font-size: 18px;
+    font-weight: normal;
+    padding:5px 0;
+}
+td {
+    vertical-align: top;
+    padding-bottom: 15px;
+    color: #9ba7ab;
+}
+tr > td:first-child {
+    font-style: italic;
+    color: #CCCCCC;
+    width: 30%;
+}
+span#name:before {
+    content:"•";
+    font-size:50px;
+    line-height:16px;
+    vertical-align:top;
+    color:#77b880;
+}
+#name, #mail, a{
+    text-decoration: none;
+    color: #D3DB95;
+}
+#support {
+    color: #FF0000;
+    font-weight: bold;
+}
+#status {
+    color: #D06832;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+body,
+div,
+header,
+nav,
+ul,
+li,
+section,
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Calibri, Verdana, sans-serif;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  height: 600px;
+  width: 665px;
+}
+header nav ul li {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #84b5c9;
+}
+header hr {
+  width: 96%;
+  border: 1px solid #000;
+}
+div#wrapper {
+  margin: 5px 10px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+  padding: 5px;
+}
+div#laptop {
+  position: relative;
+  float: left;
+  width: 408px;
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 0 5px 10px 5px;
+}
+fieldset {
+  width: 200px;
+  float: left;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+img {
+  float: left;
+  margin-right: 10px;
+  width: 126px;
+  height: 80px;
+}
+.info {
+  line-height: 220%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+div#sliders {
+  position: relative;
+  padding-top: 50px;
+}
+div#sliders ul {
+  line-height: 220%;
+  padding-left: 10px;
+}
+div#sliders ul li {
+  padding: 5px 5px 5px 10px;
+  display: inline;
+}

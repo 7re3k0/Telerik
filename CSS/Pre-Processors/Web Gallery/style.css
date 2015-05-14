@@ -1,0 +1,30 @@
+#thumbs {
+  margin: 15px;
+  text-align: center;
+  padding: 0;
+}
+#thumbs label {
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 1px 0 0;
+  display: inline-block;
+  padding: 0 0 3px 0;
+}
+#thumbs label img {
+  width: 200px;
+}
+#thumbs .big {
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+#thumbs .big input,
+#thumbs .big input + img {
+  display: none;
+}
+#thumbs .big input:checked + img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
